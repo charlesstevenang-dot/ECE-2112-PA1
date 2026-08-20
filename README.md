@@ -10,8 +10,17 @@ of the string to the end while keeping all remaining characters in their origina
 capitalization of every character.
 
   **The Following Methods/Functions were used:**
+'''python
+def rotate_word(word: str) -> str:
+ 
+    if not isinstance(word, str) or not word.strip():
+        raise ValueError("Argument must be a non-empty string.")
+'''
 
-The problem stated that the function "rotate_word()" must accept a non-empty string, which is why '''isinstance()''', ".strip", and "raise" were used. "isinstance()" checks if a variable belongs within a certain data type, which in this case, is (string). The ".strip" was used to clear up the "spaces" input by the user, so it can be checked with a logical operator (or not), therefore making the function "rotate_word()"only accept non-empty string type variables.
+
+
+
+The problem stated that the function "rotate_word()" must accept a non-empty string, which is why isinstance(), ".strip", and "raise" were used. "isinstance()" checks if a variable belongs within a certain data type, which in this case, is (string). The ".strip" was used to clear up the "spaces" input by the user, so it can be checked with a logical operator (or not), therefore making the function "rotate_word()"only accept non-empty string type variables.
 
 The main part of the function "rotate_word()" used "len()" to identify the number of characters in the word input. To stop the function from breaking, it will return the word input if the length of the word is <= 1. This means the user used the function on a single letter, and the output will be the same letter.
 
@@ -36,9 +45,4 @@ August 20, 2026 - Inputted the initial base for the README file.
 August 21 2026 - Added descriptions of the functions and methods to Problems A and B
 
 
-```python
-def greet(name):
-    """Returns a simple greeting."""
-    return f"Hello, {name}!"
-```
 

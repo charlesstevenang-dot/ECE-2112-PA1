@@ -37,6 +37,23 @@ What the function returns is the last character in front, keeping the middle unt
 B. USERNAME BUILDER PROBLEM
 Create a function named make username() that accepts two strings: first name and last name.
 
+```python
+def make_username(first_name: str, last_name: str) -> str:
+```
+The problem specified that it must accept two strings: `first_name` and `last_name`.
+
+```python
+    final_first = first_name.lower().replace(" ", "")
+
+    final_last = last_name.lower().replace(" ", "")
+```
+The final output must combine the first and last names, joined with "." and lowercased. The function `.lower()` makes all the characters inside the string variable lowercased, while the function `.replace()` replaces every " " with "", removing all the spaces inside the string variable.
+
+```python
+return final_first + "." + final_last
+```
+The function `make_username` returns a string datatype combining the corrected first and last names joined with ".".
+
 C. BOOKEND SWAP PROBLEM
 Create a function named swap bookends() that accepts a list containing at least two elements.
 

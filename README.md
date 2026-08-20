@@ -16,7 +16,7 @@ def rotate_word(word: str) -> str:
     if not isinstance(word, str) or not word.strip():
         raise ValueError("Argument must be a non-empty string.")
 ```
-The problem stated that the function "rotate_word()" must accept a non-empty string, which is why isinstance(), ".strip", and "raise" were used. "isinstance()" checks if a variable belongs within a certain data type, which in this case, is (string). The ".strip" was used to clear up the "spaces" input by the user, so it can be checked with a logical operator (or not), therefore making the function "rotate_word()"only accept non-empty string type variables.
+The problem stated that the function `rotate_word()` must accept a non-empty string, which is why `isinstance()`, `.strip`, and `raise` were used. `isinstance()` checks if a variable belongs within a certain data type, which in this case, is (string). The `.strip` was used to clear up the "spaces" input by the user, so it can be checked with a logical operator (or not), therefore making the function `rotate_word()`only accept non-empty string type variables.
 
 ```python
  if len(word)<=1:

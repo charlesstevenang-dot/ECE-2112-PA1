@@ -34,3 +34,11 @@ Thank you for reading!!
 **README FILE VERSION HISTORY**\
 August 20, 2026 - Inputted the initial base for the README file.
 August 21 2026 - Added descriptions of the functions and methods to Problems A and B
+
+
+```python
+def greet(name):
+    """Returns a simple greeting."""
+    return f"Hello, {name}!"
+```
+

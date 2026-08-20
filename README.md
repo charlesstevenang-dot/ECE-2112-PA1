@@ -2,7 +2,8 @@
 
 Made and Submitted by Charles Steven H. Ang | 2ECE-D
 
-The content of this repository is the code for the First ECE2112 Experiment (PA1) AY2026-2027. This Experiment introduces Python programming by presenting 3 programming problems.
+The content of this repository is the code for the First ECE2112 Experiment (PA1) AY2026-2027. This Experiment introduces Python programming by presenting 3 programming problems. <br>
+<br>
 
 A. WORD ROTATION PROBLEM
 Create a function named rotate_word() that accepts a non-empty string. Move the first character

@@ -16,8 +16,9 @@ C. BOOKEND SWAP PROBLEM
 Create a function named swap bookends() that accepts a list containing at least two elements.\
 
 
-To see the main Python program for Experiment 1, click this link: _________________________________________ and download it, open it in Jupyter Notebook, then run all cells.\\
+To see the main Python program for Experiment 1, click this link: _________________________________________ and download it, open it in Jupyter Notebook, then run all cells.\
 
 Thank you for reading!!\
+
 **README FILE VERSION HISTORY**\
-August 20, 2026 - Inputted the initial base for the README file.\
+August 20, 2026 - Inputted the initial base for the README file.

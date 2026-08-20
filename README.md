@@ -63,8 +63,9 @@ To see the main Python program for Experiment 1, click this link: ______________
 Thank you for reading!!
 
 **README FILE VERSION HISTORY**\
-August 20, 2026 - Inputted the initial base for the README file.
-August 21 2026 - Added descriptions of the functions and methods to Problems A and B
+August 20, 2026 - Inputted the initial base for the README file. <br>
+August 21 2026 - Added descriptions of the functions and methods to Problems A and B <br>
+August 22 2026 - Learned how to use code blocks and highlights (tweaked descriptions) <br>
 
 
 

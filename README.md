@@ -18,6 +18,7 @@ The main part of the function "rotate_word()" used "len()" to identify the numbe
 When the user inputs a word that is > 1, then the function would return the last character in front using "word[-1]", then the middle characters of the word untouched using "word[1:-1]," and lastly the first character at the end of the word. This works by using Python indexing, where [-1] is the last character of a word, [1] is the second character, and [0] or [-(total number of characters)] is the first character. Think of it this way, positive-upwards goes from left to right, negative-downwards goes from right to left, and [0] is the start from left to right, and [-(total number of characters)] is the end from right to left.
 
 What the function returns is the last character in front, keeping the middle untouched by using a slicing operator ":" inside "word[1:-1]", and the first character at the end. <br>
+<br>
 
 B. USERNAME BUILDER PROBLEM
 Create a function named make username() that accepts two strings: first name and last name.

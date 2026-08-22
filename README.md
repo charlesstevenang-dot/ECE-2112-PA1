@@ -40,6 +40,7 @@ What the function returns is the last character in front, keeping the middle unt
 B. USERNAME BUILDER PROBLEM
 Create a function named make username() that accepts two strings: first name and last name.
 
+  **The Following Methods/Functions were used:**
 ```python
 def make_username(first_name: str, last_name: str) -> str:
 ```
@@ -63,6 +64,22 @@ The function `make_username` returns a string datatype combining the corrected f
 C. BOOKEND SWAP PROBLEM
 Create a function named swap bookends() that accepts a list containing at least two elements.
 
+  **The Following Methods/Functions were used:**
+
+ ```python
+def swap_bookend(items: list) -> list:
+```
+The problem required a function that would accept a list containing at least 2 elements. The function would not work when used with a list containing one element; it would display a value error saying "not enough values to unpack (expected at least 2, got 1)". 
+
+```python
+first, *middle, last = items
+```
+In order to unpack the list into 3 variables, the variables must be on the left side of the "=". If it were written in reverse, Python tries to read the values of `first`, `*middle`, and `last` to create `items` instead of taking the list stored in `items` and unpacking it into new variables. `first` takes the first element inside of `items`, `last` takes the last element, and `*middle` takes up all the remaining elements.
+
+```python
+return last, *middle, first
+```
+Now, when the function returns the list, the first and last elements switch places, and the middle elements remain unchanged.
 
 To see the main Python program for Experiment 1, click this link: _________________________________________ and download it, open it in Jupyter Notebook, then run all cells.
 
@@ -72,6 +89,6 @@ Thank you for reading!!
 August 20, 2026 - Inputted the initial base for the README file. <br>
 August 21 2026 - Added descriptions of the functions and methods to Problems A and B <br>
 August 22 2026 - Learned how to use code blocks and highlights (tweaked descriptions) <br>
-
+August 22 2026 - Input descriptions for problem C <br>
 
 
